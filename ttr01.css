@@ -1,0 +1,40 @@
+.header {}
+
+.header .inner {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header .gnb {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.main_visual {
+    position: relative;
+    height: 640px;
+    background: #ffd341;
+}
+
+.main_visual h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    max-width: 1170px;
+    width: 100%;
+
+    color: blue;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer {
+    padding: 40px 0;
+    text-align: center;
+}
